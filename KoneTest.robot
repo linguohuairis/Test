@@ -5,7 +5,7 @@ Library           Collections
 *** Test Cases ***
 cardoor
     ${logPath}=    set variable    ./log1.jtl
-    run jmeter    ~/apache-jmeter-3.2/bin/jmeter.jar   ./kone_GetCarDoor.jmx    ${logPath}
+    run jmeter    ~/apache-jmeter-3.2/bin/jmeter   ./kone_GetCarDoor.jmx    ${logPath}
     analyse jtl convert    ${logPath}
     ${result}    analyse jtl convert    ${logPath}
     log    ${result}

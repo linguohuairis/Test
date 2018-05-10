@@ -1,11 +1,11 @@
 *** Settings ***
-Library          /usr/local/lib/python2.7/dist-packages/JMeterLib.py
+Library           /usr/local/lib/python2.7/dist-packages/JMeterLib.py
 Library           Collections
 
 *** Test Cases ***
 cardoor
     ${logPath}=    set variable    ./log1.jtl
-    run jmeter    ~/apache-jmeter-3.2/bin/jmeter   ./kone_GetCarDoor.jmx    ${logPath}
+    run jmeter    ~/apache-jmeter-3.2/bin/jmeter    ./kone_GetCarDoor.jmx    ${logPath}
     analyse jtl convert    ${logPath}
     ${result}    analyse jtl convert    ${logPath}
     log    ${result}

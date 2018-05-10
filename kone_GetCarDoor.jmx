@@ -214,7 +214,7 @@
                 </elementProp>
               </collectionProp>
             </elementProp>
-            <stringProp name="HTTPSampler.domain">cloudapi-resourcestore-dev-1-3-4.eu-gb.mybluemix.net</stringProp>
+            <stringProp name="HTTPSampler.domain">cloudapi-resourcestore-dev-1-4-1.eu-gb.mybluemix.net</stringProp>
             <stringProp name="HTTPSampler.port">443</stringProp>
             <stringProp name="HTTPSampler.protocol">https</stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
@@ -237,7 +237,7 @@
                 </elementProp>
                 <elementProp name="" elementType="Header">
                   <stringProp name="Header.name">Authorization</stringProp>
-                  <stringProp name="Header.value">Basic U1c4bG1kTXRyQ1BEbGt3WlRvUFg6eGlaVlFWcFEwd0t6SEpKOGV2Smk=</stringProp>
+                  <stringProp name="Header.value">Basic MHE3cExqMUpIbGE3RWExR1BlSmc6RGl6MjBLclk3SHVWQ0pBSldCSE4=</stringProp>
                 </elementProp>
               </collectionProp>
             </HeaderManager>
